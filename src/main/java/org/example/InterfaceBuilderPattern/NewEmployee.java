@@ -44,7 +44,7 @@ public class NewEmployee implements Employee{
             this.petOwner= petOwner;
             return this;
         }
-        public Employee build(){
+        Employee build(){
             return new NewEmployee(this);
         }
     }

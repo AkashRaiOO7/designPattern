@@ -1,6 +1,6 @@
 package org.example.BuilderPattern;
 
-class Employee {
+public class Employee {
     private String name;
     private String orgName;
     private boolean petOwner; //optional

@@ -2,8 +2,8 @@ package org.example.InterfaceBuilderPattern;
 
 interface Employee {
 
-    public String getName();
-    public String getOrgName();
-    public Boolean isPetOwner();
-    public String getInterest();
+    String getName();
+    String getOrgName();
+    Boolean isPetOwner();
+    String getInterest();
 }
